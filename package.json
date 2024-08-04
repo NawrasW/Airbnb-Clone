@@ -1,0 +1,46 @@
+{
+  "name": "airbnb-clone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "node prisma/seed.js"
+  },
+  "dependencies": {
+    "@google-cloud/vision": "^4.3.0",
+    "@heroicons/react": "^2.1.4",
+    "@next-auth/prisma-adapter": "^1.0.7",
+    "@prisma/client": "^5.16.1",
+    "@react-google-maps/api": "^2.19.3",
+    "@tensorflow/tfjs": "^4.20.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/formidable": "^3.4.5",
+    "bcryptjs": "^2.4.3",
+    "formidable": "^3.5.1",
+    "multer": "^1.4.5-lts.1",
+    "multiparty": "^4.2.3",
+    "next": "13.5.6",
+    "next-auth": "^4.24.7",
+    "nsfw-filter": "^1.0.3",
+    "nsfwjs": "^4.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.52.1"
+  },
+  "devDependencies": {
+    "@types/next-auth": "^3.15.0",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6",
+    "postcss": "^8",
+    "prisma": "^5.16.1",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}
